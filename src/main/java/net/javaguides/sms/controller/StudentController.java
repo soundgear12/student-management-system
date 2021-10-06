@@ -33,4 +33,5 @@ public class StudentController {
 		return "create student";
 	}
 	
+	public String saveStudent() {
 }
