@@ -17,6 +17,7 @@ public class StudentManagementSystemApplication implements CommandLineRunner {
 
 	@Autowired
 	private StudentRepository studentRepository;
+	
 	@Override
 	public void run(String... args) throws Exception {
 		

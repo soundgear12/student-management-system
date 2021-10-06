@@ -20,7 +20,7 @@
 							<input
 							type = "text"
 							name = "firstName"
-							th:field = "firstName"
+							th:field = "*{firstName}"
 							class = "form-control"
 							palceholder="Enter Student First Name"
 							/>
@@ -31,7 +31,7 @@
 							<input
 							type = "text"
 							name = "lastName"
-							th:field = "lasstName"
+							th:field = "*{lastName}"
 							class = "form-control"
 							palceholder="Enter Student Last Name"
 							/>
@@ -42,19 +42,20 @@
 							<input
 							type = "text"
 							name = "email"
-							th:field = "email"
+							th:field = "*{email}"
 							class = "form-control"
 							palceholder="Enter Student Email"
 							/>
 						</div>
 						
 						<div class = "footer-body">
-							<button type="submit" class = "tn btn-primary">
+							<button type="submit" class = "btn btn-primary">
 								Submit
 							</button>
 						</div>		
 					</form>
-						
+					
+				</div>		
 			</div>
 		</div>
 	</div>		
